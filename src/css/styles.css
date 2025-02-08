@@ -3,7 +3,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: lightgray;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/41294/hero.jpg) no-repeat center center fixed;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/41294/hero.jpg)
+    no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -120,7 +121,7 @@ button:focus {
   background-color: transparent;
 }
 
-.img-content-wrapper>li {
+.img-content-wrapper > li {
   color: #a7a8a8;
   text-align: center;
   font-size: 12px;
@@ -129,7 +130,7 @@ button:focus {
   letter-spacing: 0.04em;
 }
 
-.img-content-wrapper>li>span {
+.img-content-wrapper > li > span {
   text-align: center;
   display: block;
   color: #a7a8a8;
